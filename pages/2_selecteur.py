@@ -17,7 +17,7 @@ st.subheader('Ajouter une option')
 option = st.selectbox(
     'Choisissez une option à ajouter',
     ['Option A', 'Option B', 'Option C', 'Option D'],
-    key='add_selectbox'
+    key='add_selectbox',
 )
 
 if st.button('Ajouter à la sélection', key='add_button'):

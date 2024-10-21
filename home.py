@@ -16,6 +16,15 @@ st.write('Valeur du compteur : ', st.session_state.compteur)
 
 st.write('---')
 
+compteur_sans_session = 0
+
+if st.button('Incrémenter (sans session)'):
+    compteur_sans_session += 1
+
+st.write('Valeur du compteur (sans session) : ', compteur_sans_session)
+
+st.write('---')
+
 # Chargement du fichier CSV
 st.subheader('Chargement de fichier CSV')
 
