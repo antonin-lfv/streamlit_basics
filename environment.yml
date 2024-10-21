@@ -3,8 +3,8 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+  - python=3.11.10
   - anyio=4.6.2
-  - appnope=0.1.2
   - argon2-cffi=21.3.0
   - argon2-cffi-bindings=21.2.0
   - arrow-cpp=16.1.0
@@ -91,8 +91,6 @@ dependencies:
   - libev=4.33
   - libevent=2.1.12
   - libffi=3.4.4
-  - libgfortran=5.0.0
-  - libgfortran5=11.3.0
   - libgrpc=1.62.2
   - libiconv=1.16
   - libnghttp2=1.57.0
